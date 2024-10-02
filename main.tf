@@ -9,7 +9,7 @@ terraform {
 
   backend "s3" {
     bucket = "hknl-remote-state-bucket"
-    key    = "aws-ec2/terraform.tfstate"
+    key    = "aws-ec2-pipelines/terraform.tfstate"
     region = "us-east-1"
   }
 }
